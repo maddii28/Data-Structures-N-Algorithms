@@ -1,3 +1,5 @@
+Data Structures and Algorithms (DSA)
+
 📚 Overview
 
 This repository contains my learning and practice journey for Data Structures and Algorithms (DSA). It covers fundamental concepts, implementations, and solutions to common problems that are essential for technical interviews and competitive programming.
@@ -29,5 +31,5 @@ Clone the repository:
 git clone https://github.com/your-username/dsa-repo.git
 Navigate to the topic folder and run the code.
 
-💡 Contribution
+💡 Contribution-
 Feel free to contribute by creating a pull request if you find issues or want to add solutions to new problems.
