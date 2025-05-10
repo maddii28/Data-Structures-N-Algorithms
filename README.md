@@ -1,7 +1,7 @@
-# 🧠 45-Day LeetCode OA Prep (Jane Street + BlackRock Focus)
+# 🧠 45-Day LeetCode OA Prep 
 
 ## 🎯 Goal
-Master online assessments for **Jane Street INSIGHT** and **BlackRock 2026 internships**. Focused on:
+Master online assessments. Focused on:
 - Clean Python implementation
 - Parsing-heavy problems
 - DSA fundamentals and advanced logic
