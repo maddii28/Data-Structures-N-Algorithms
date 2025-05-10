@@ -33,13 +33,15 @@ Master online assessments for **Jane Street INSIGHT** and **BlackRock 2026 inter
 
 ---
 
-## 📅 Sample Table (Days 1–12)
+## 📅 45-Day Checklist
+
+### 🔢 Days 1–12: OA Fundamentals & Clean Implementation
 
 | Day | Topic                              | Practice Problems                                      |
 |-----|------------------------------------|--------------------------------------------------------|
 | 1   | Arrays + Parsing Basics            | Two Sum, Running Sum                                   |
-| 2   | String Fundamentals                | Valid Palindrome, Reverse String                       |
-| 3   | Hashing + Parsing Counts           | Valid Anagram, Group Anagrams                          |
+| 2   | String Fundamentals                | Valid Palindrome, Reverse String, First Unique Char    |
+| 3   | Hashing + Parsing Counts           | Valid Anagram, Group Anagrams, Ransom Note             |
 | 4   | Sliding Window                     | Longest Substring w/o Repeat, Max Consecutive Ones     |
 | 5   | Prefix Sums                        | Subarray Sum = K, Pivot Index                          |
 | 6   | Two Pointers                       | Remove Duplicates, Two Sum II                          |
@@ -52,24 +54,66 @@ Master online assessments for **Jane Street INSIGHT** and **BlackRock 2026 inter
 
 ---
 
-## ✅ Key Features
-- 90+ curated LeetCode problems
-- 5 timed mock assessments
-- Real-world parsing simulation (esp. for Jane Street)
-- Structured drills: greedy, trees, recursion, DP, graph, design
+### 🌟 Days 13–25: Core DSA Expansion
+
+| Day | Topic                 | Practice Problems                                      |
+|-----|-----------------------|--------------------------------------------------------|
+| 13  | Stack/Queue Logic     | Valid Parentheses, Daily Temperatures                 |
+| 14  | Greedy                | Jump Game, Best Time to Buy/Sell Stock                |
+| 15  | Binary Search         | Search Insert, Koko Eating Bananas                    |
+| 16  | Tree Basics           | Inorder Traversal, Max Depth of Binary Tree           |
+| 17  | HashSet + Cycle Logic | Happy Number, Linked List Cycle                       |
+| 18  | 🧪 Mini Mock #2        | 2 Mediums (timed)                                     |
+| 19  | Debug + Review        | Patch weaknesses from mini mock                       |
+| 20  | Backtracking          | Subsets, Combination Sum                              |
+| 21  | Nested Structures     | Encode & Decode Strings, Flatten Nested Iterator      |
+| 22  | Sliding Window II     | Minimum Window Substring, Permutation in String       |
+| 23  | Matrix Practice       | Rotate Image, Set Matrix Zeroes                       |
+| 24  | Bit Manipulation      | Single Number, Counting Bits                          |
+| 25  | OA-Style Design       | Custom String Parser, LRU Cache                       |
 
 ---
 
-## 🧩 Tips
-- Use Python for fast parsing & built-ins
-- Commit solutions daily (`Day01_two_sum.py`, etc.)
-- Add problem links and notes in commit messages
-- Use GitHub Projects or issues to track progress
+### ✨ Days 26–45: Mastery Phase + Mock OA Focus
+
+| Day | Topic                 | Practice Problems                                      |
+|-----|-----------------------|--------------------------------------------------------|
+| 26  | DP Intro              | Climbing Stairs, House Robber                         |
+| 27  | DP 1D Problems        | Coin Change, Max Product Subarray                     |
+| 28  | DP 2D Problems        | Unique Paths, Longest Common Subsequence              |
+| 29  | Advanced Greedy       | Task Scheduler, Partition Labels                      |
+| 30  | Graph Basics          | Number of Islands, Clone Graph                        |
+| 31  | DFS / BFS             | Walls and Gates, Pacific Atlantic Water Flow          |
+| 32  | 🧪 Mini Mock #3        | 1 Easy + 2 Mediums (timed)                            |
+| 33  | Mock Review           | Patch logic gaps                                      |
+| 34  | Tree Traversals       | Lowest Common Ancestor, Zigzag Level Order            |
+| 35  | Tricky Edge Cases     | Decode Ways, Eval Reverse Polish Notation             |
+| 36  | Parsing Practice      | Basic Calculator II, Integer to Roman                 |
+| 37  | 🧪 Mock OA #4          | Full 120-min OA-style simulation                      |
+| 38  | Review + Patch        | Fix bugs, revisit patterns                            |
+| 39  | 🧪 Mock OA #5          | 2 Mediums + 1 Hard                                     |
+| 40  | Final Mock Review     | Final debugging & gap fixing                          |
+| 41  | Mega Pattern Review   | Scan all completed patterns + starred problems        |
+| 42  | Speed Drill #1        | Solve 3 Easies in 30 minutes                          |
+| 43  | Speed Drill #2        | Solve 2 Mediums in 45 minutes                         |
+| 44  | Re-solve Set          | 5 past tricky questions                               |
+| 45  | 🎉 Final Confidence    | Solve 1 favorite problem + light day                  |
 
 ---
 
-## 🚀 How to Use
-- Clone the repository:
-  ```bash
-  git clone https://github.com/maddii28/Data-Structures-N-Algorithms.git
+## ✅ Tips for Repo Structure
+
+```bash
+leetcode-oa-prep/
+├── Day01_two_sum.py
+├── Day01_notes.md
+├── ...
+├── Day11_mock_oa/
+│   ├── problem1.py
+│   └── problem2.py
+├── parsers/
+│   ├── csv_parser.py
+│   ├── basic_calculator.py
+├── README.md
+
 
