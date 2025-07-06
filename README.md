@@ -1,119 +1,213 @@
-# 🧠 45-Day LeetCode OA Prep 
+Day 1 – Prefix Sum + Subarray Logic
 
-## 🎯 Goal
-Master online assessments. Focused on:
-- Clean Python implementation
-- Parsing-heavy problems
-- DSA fundamentals and advanced logic
-- Mock OA readiness
+Subarray Sum Equals K
 
----
+Maximum Size Subarray Sum Equals K
 
-## 🗓️ Timeline
-- **Day 1–12**: Parsing, arrays, strings, logic (Jane Street-friendly)
-- **Day 13–25**: Core DSA (stacks, trees, greedy, etc.)
-- **Day 26–45**: DP, graphs, full mocks & edge case mastery
+Contiguous Array
 
----
+Max Average Subarray I
 
-## ⏱️ Daily Commitment
-| Phase           | Time/Day       | Focus                                              |
-|----------------|----------------|----------------------------------------------------|
-| Days 1–12       | 3.5–5 hrs/day   | Core problems + parsing/simulation drills          |
-| Mock Days       | 2–2.5 hrs       | Full timed OA + review                             |
-| Days 13–45      | 3–4.5 hrs/day   | Deep DSA + pattern drilling + review/mocks         |
+Binary Subarrays With Sum
 
-### 🔍 Parsing Days Breakdown
-- **Day 1**: Split integers from space-separated input
-- **Day 3**: Frequency map, malformed text
-- **Day 7**: Stack-based command simulation
-- **Day 9**: Multi-line I/O (e.g., `Read4`)
-- **Day 10**: Reverse Polish eval, object simulation
-- **Day 12**: CSV/JSON-like parser/tokenizer (mini project)
 
----
+Day 2 – Greedy + Sorting
 
-## 📅 45-Day Checklist
+Merge Intervals
 
-### 🔢 Days 1–12: OA Fundamentals & Clean Implementation
+Non-overlapping Intervals
 
-| Day | Topic                              | Practice Problems                                      |
-|-----|------------------------------------|--------------------------------------------------------|
-| 1   | Arrays + Parsing Basics            | Two Sum, Running Sum                                   |
-| 2   | String Fundamentals                | Valid Palindrome, Reverse String, First Unique Char    |
-| 3   | Hashing + Parsing Counts           | Valid Anagram, Group Anagrams, Ransom Note             |
-| 4   | Sliding Window                     | Longest Substring w/o Repeat, Max Consecutive Ones     |
-| 5   | Prefix Sums                        | Subarray Sum = K, Pivot Index                          |
-| 6   | Two Pointers                       | Remove Duplicates, Two Sum II                          |
-| 7   | Stack Sim + Command Logic          | Min Stack, Queue via Stacks, Simplify Path             |
-| 8   | Sorting + Filtering                | Merge Intervals, Sort Colors                           |
-| 9   | Heavy Input Parsing                | Read4, Text Justification, Basic Calculator II         |
-| 10  | Structured Logic (Jane Extras)     | Reverse Polish Notation, Parking System                |
-| 11  | 🧪 Mock OA #1                       | 1 Easy + 1 Medium + parsing-based question             |
-| 12  | 🔍 Mock Review + Mini Parser        | Fix mistakes + implement CSV/JSON parser/tokenizer     |
+Meeting Rooms II
 
----
+Jump Game II
 
-### 🌟 Days 13–25: Core DSA Expansion
+Queue Reconstruction by Height
 
-| Day | Topic                 | Practice Problems                                      |
-|-----|-----------------------|--------------------------------------------------------|
-| 13  | Stack/Queue Logic     | Valid Parentheses, Daily Temperatures                 |
-| 14  | Greedy                | Jump Game, Best Time to Buy/Sell Stock                |
-| 15  | Binary Search         | Search Insert, Koko Eating Bananas                    |
-| 16  | Tree Basics           | Inorder Traversal, Max Depth of Binary Tree           |
-| 17  | HashSet + Cycle Logic | Happy Number, Linked List Cycle                       |
-| 18  | 🧪 Mini Mock #2        | 2 Mediums (timed)                                     |
-| 19  | Debug + Review        | Patch weaknesses from mini mock                       |
-| 20  | Backtracking          | Subsets, Combination Sum                              |
-| 21  | Nested Structures     | Encode & Decode Strings, Flatten Nested Iterator      |
-| 22  | Sliding Window II     | Minimum Window Substring, Permutation in String       |
-| 23  | Matrix Practice       | Rotate Image, Set Matrix Zeroes                       |
-| 24  | Bit Manipulation      | Single Number, Counting Bits                          |
-| 25  | OA-Style Design       | Custom String Parser, LRU Cache                       |
+Task Scheduler
 
----
+Lemonade Change
 
-### ✨ Days 26–45: Mastery Phase + Mock OA Focus
+Day 3 – Sliding Window + Hash Maps
 
-| Day | Topic                 | Practice Problems                                      |
-|-----|-----------------------|--------------------------------------------------------|
-| 26  | DP Intro              | Climbing Stairs, House Robber                         |
-| 27  | DP 1D Problems        | Coin Change, Max Product Subarray                     |
-| 28  | DP 2D Problems        | Unique Paths, Longest Common Subsequence              |
-| 29  | Advanced Greedy       | Task Scheduler, Partition Labels                      |
-| 30  | Graph Basics          | Number of Islands, Clone Graph                        |
-| 31  | DFS / BFS             | Walls and Gates, Pacific Atlantic Water Flow          |
-| 32  | 🧪 Mini Mock #3        | 1 Easy + 2 Mediums (timed)                            |
-| 33  | Mock Review           | Patch logic gaps                                      |
-| 34  | Tree Traversals       | Lowest Common Ancestor, Zigzag Level Order            |
-| 35  | Tricky Edge Cases     | Decode Ways, Eval Reverse Polish Notation             |
-| 36  | Parsing Practice      | Basic Calculator II, Integer to Roman                 |
-| 37  | 🧪 Mock OA #4          | Full 120-min OA-style simulation                      |
-| 38  | Review + Patch        | Fix bugs, revisit patterns                            |
-| 39  | 🧪 Mock OA #5          | 2 Mediums + 1 Hard                                     |
-| 40  | Final Mock Review     | Final debugging & gap fixing                          |
-| 41  | Mega Pattern Review   | Scan all completed patterns + starred problems        |
-| 42  | Speed Drill #1        | Solve 3 Easies in 30 minutes                          |
-| 43  | Speed Drill #2        | Solve 2 Mediums in 45 minutes                         |
-| 44  | Re-solve Set          | 5 past tricky questions                               |
-| 45  | 🎉 Final Confidence    | Solve 1 favorite problem + light day                  |
+Minimum Window Substring
 
----
+Permutation in String
 
-## ✅ Tips for Repo Structure
+Longest Repeating Character Replacement
 
-```bash
-leetcode-oa-prep/
-├── Day01_two_sum.py
-├── Day01_notes.md
-├── ...
-├── Day11_mock_oa/
-│   ├── problem1.py
-│   └── problem2.py
-├── parsers/
-│   ├── csv_parser.py
-│   ├── basic_calculator.py
-├── README.md
+Max Consecutive Ones III
 
+Sliding Window Maximum (attempt logic, skip heap)
+
+✨ Blind re-code: Subarray Sum Equals K
+
+✨ Blind re-code: Merge Intervals
+
+Day 4 – Two Pointers + Reversal Logic
+
+3Sum
+
+Container With Most Water
+
+Remove Duplicates from Sorted Array II
+
+Reverse Words in a String II
+
+Valid Palindrome II
+
+✨ Blind re-code: Jump Game II
+
+✨ Blind re-code: Contiguous Array
+
+Day 5 – Frequency + Heaps
+
+Top K Frequent Elements
+
+Sort Characters by Frequency
+
+Reorganize String
+
+Task Scheduler
+
+Kth Largest in Array
+
+✨ Blind re-code: 3Sum
+
+✨ Blind re-code: Remove Duplicates from Sorted Array II
+
+Day 6 – Binary Search + Answer Search
+
+Koko Eating Bananas
+
+Minimum Number of Days to Make Bouquets
+
+Find Minimum in Rotated Sorted Array
+
+Search in Rotated Sorted Array
+
+Find Peak Element
+
+✨ Blind re-code: Top K Frequent Elements
+
+✨ Blind re-code: Task Scheduler
+
+Day 7 – Optiver OA Mock #1 (Timed)
+
+75 min LeetCode Medium-Hard OA-style simulation
+
+Choose random unseen Q (e.g., Minimum Number of Refueling Stops)
+
+Review your own solution (efficiency + edge cases)
+
+✨ Blind re-code: Koko Eating Bananas
+
+✨ Blind re-code: Queue Reconstruction by Height
+
+Day 8 – Review & Reinforcement
+
+Redo 2 hardest problems from Day 1–5 without notes
+
+Add 2 new problems from any weak pattern
+
+Run Zap-N style games (15 mins)
+
+✨ Blind re-code: Find Peak Element
+
+✨ Blind re-code: Valid Palindrome II
+
+Day 9 – Interval Logic + Advanced Greedy
+
+Insert Interval
+
+Car Pooling
+
+Merge Triplets to Form Target Triplet
+
+Minimum Number of Arrows to Burst Balloons
+
+Minimum Number of Taps to Open Garden
+
+✨ Blind re-code: Binary Subarrays With Sum
+
+✨ Blind re-code: Sliding Window Maximum
+
+Day 10 – Stack / Monotonic Stack
+
+Daily Temperatures
+
+Next Greater Element II
+
+Largest Rectangle in Histogram (attempt first pass)
+
+Asteroid Collision
+
+Remove K Digits
+
+✨ Blind re-code: Insert Interval
+
+✨ Blind re-code: Longest Repeating Character Replacement
+
+Day 11 – Simulation-Based Problems
+
+Car Fleet
+
+Minimum Time to Complete Trips
+
+Maximum Ice Cream Bars
+
+Least Number of Unique Integers After K Removals
+
+Elevator Problem (or any recent LC sim Q)
+
+✨ Blind re-code: Daily Temperatures
+
+✨ Blind re-code: Minimum Number of Taps to Open Garden
+
+Day 12 – Mock #2 + Partial Review
+
+OA-style 75-min simulation (1 unseen Medium-Hard)
+
+Analyze where you fail: runtime? logic? edge case?
+
+Light extra problem from that same topic afterward
+
+✨ Blind re-code: Car Pooling
+
+✨ Blind re-code: Sort Characters by Frequency
+
+Day 13 – Final Pressure Reps
+
+Pick 2 hardest failed questions so far
+
+Re-solve both under soft time constraint (40 min each)
+
+1 new Medium Q on that same topic
+
+Run Zap‑N again (10 min sharpness)
+
+✨ Blind re-code: Minimum Time to Complete Trips
+
+✨ Blind re-code: Asteroid Collision
+
+Day 14 – Fast Recap + Final OA Attempt
+
+Solve 4 recap Mediums:
+
+Sliding Window
+
+Heap
+
+Sorting
+
+Binary Search or Greedy
+
+Light CS MCQ drill (10–15 min from AlgoMonster or NeetCode sheet)
+
+✨ Blind re-code: Largest Rectangle in Histogram
+
+✨ Blind re-code: Minimum Number of Arrows to Burst Balloons
+
+Take OA when most alert
+
+Trust your prep. Finish strong.
 
