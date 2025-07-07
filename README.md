@@ -67,8 +67,6 @@ Sort Characters by Frequency
 
 Reorganize String
 
-Task Scheduler
-
 Kth Largest in Array
 
 ✨ Blind re-code: 3Sum
